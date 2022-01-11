@@ -1,1 +1,1 @@
-# mini-curso
+# Minicurso
