@@ -14,8 +14,9 @@ body{
 main{
 	align-items: center; 
 	display: flex;
-	height:  vh;
+	height: 100 vh;
 	justify-content: center;
+	position: relative;
 }
 
 main > section img {
