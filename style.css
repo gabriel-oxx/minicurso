@@ -40,7 +40,7 @@ main > section button {
 }
 
 #detalhes-container {
-	font-weight: 100;
+	font-weight: bold;
 	list-style: none;
 	height: 30px;
 	width: 100%;
