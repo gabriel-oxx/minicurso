@@ -1,4 +1,5 @@
-const imagem =document.querySelector('img');
+const imagemPersonagem1 =document.querySelector('imagem');
+const imagemPersonagem2 = document.querySelector('iimagem');
 const botao = document.querySelector('button');
 const nomePersonagem1 = document.querySelector('#nome');
 const nomePersonagem2 = document.querySelector('#nnome');
@@ -52,8 +53,8 @@ pegarPersonagemDois = () =>{
 			"Content-type": 'application/json'
 		}
 	}).then((response)=>response.json()).then((data)=>{
-		//imagem.src = data.image;
-		//imagem.alt = data.name;
+		iimagem.src = data.image;
+		iimagem.alt = data.name;
 		nomePersonagem2.innerHTML = data.name;
 		especiePersonagem2.innerHTML = data.species;
 		estadoPersonagem2.innerHTML = verificarEstado(data);
@@ -69,8 +70,8 @@ pegarPersonagemTres = () =>{
 			"Content-type": 'application/json'
 		}
 	}).then((response)=>response.json()).then((data)=>{
-		imagem.src = data.image;
-		imagem.alt = data.name;
+		iiimagem.src = data.image;
+		iiimagem.alt = data.name;
 		nomePersonagem3.innerHTML = data.name;
 		especiePersonagem3.innerHTML = data.species;
 		estadoPersonagem3.innerHTML = verificarEstado(data);

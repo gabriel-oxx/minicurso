@@ -19,7 +19,7 @@ main{
 	position: relative;
 }
 
-main > section img {
+#imagem{
 	height: 300px;
 	margin: 15px, 0;
 	width: 300px;
