@@ -39,7 +39,7 @@ main > section button {
 	text-transform: uppercase;
 }
 
-#detalhes-container {
+.detalhes-container {
 	font-weight: bold;
 	list-style: none;
 	width: 100%;
