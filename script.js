@@ -1,5 +1,5 @@
-const imagemPersonagem1 =document.querySelector('imagem');
-const imagemPersonagem2 = document.querySelector('iimagem');
+//const imagemPersonagem1 =document.querySelector('imagem');
+//const imagemPersonagem2 = document.querySelector('iimagem');
 const botao = document.querySelector('button');
 const nomePersonagem1 = document.querySelector('#nome');
 const nomePersonagem2 = document.querySelector('#nnome');

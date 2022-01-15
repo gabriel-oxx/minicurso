@@ -42,5 +42,14 @@ main > section button {
 .detalhes-container {
 	font-weight: bold;
 	list-style: none;
-	width: 100%;
+	width: 90%;
+}
+
+.detalhes-container > li {
+	align-items: baseline;
+	display: flex;
+}
+
+.detalhes-container > li p{
+	color: white;
 }
